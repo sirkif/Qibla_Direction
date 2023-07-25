@@ -1,3 +1,1 @@
-# Qibla Compass
-
-
+# Qibla Direction
