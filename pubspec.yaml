@@ -1,0 +1,32 @@
+name: quibla_direction
+description: quibla direction
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+  flutter_qiblah: ^2.1.0
+  geolocator: ^9.0.2
+  flutter_svg: ^1.1.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+dependency_overrides:
+  # flutter compass in pub.dev is not updated
+  flutter_compass:
+    git: https://github.com/hemanthrajv/flutter_compass.git
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
